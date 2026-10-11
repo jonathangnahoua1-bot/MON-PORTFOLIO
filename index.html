@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon portfolio</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header! -->
+  <header>
+    <h1>GNAHOUA</h1>
+    <nav>
+      <ul>
+        <li><a href="#apropos">A propos</a></li>
+        <li><a href="#competences">Competences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<!-- les differences sections  -->
+
+  <main>
+
+    <!-- HERO! -->
+
+    <section class="hero">
+      <img src="gnah.JPG" alt="photo jonathan">
+      <h2 id="titre"> je suis JONATHAN</h2>
+      <p>Developpeur Front-end, je cree des sites web modernes et responsives </p>
+      <a href="#contact" id="btn">Me contacter</a>
+    </section>
+
+    <section id="competences" class="competences-section">
+      <h2><a href="#">Mes Compétences</a></h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+      <!-- section projets -->
+
+    <section id="projets" class="projets-section">
+      <h2><a href="#projets">Mes Projets</a></h2>
+      <div class="projet-grid">
+
+        <article class="projet-card">
+          <h3>Projet 1 : Site E-commerce</h3>
+          <p>Conception d'une boutique en ligne responsive avec panier dynamique developpe en JavaScript.</p>
+        </article>
+
+        <article class="projet-card">
+          <h3>Projet 2 : Application Meteo</h3>
+          <p>Developpement d'une application exploitant une API REST pour afficher la météo en temps réel.</p>
+        </article>
+
+        <article class="projet-card">
+          <h3>Projet 3 : Site Portfolio</h3>
+          <p>Conception et implementation d'un site portfolio responsive pour un designer.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- section a propos -->
+
+    <section id="apropos" class="apropos-section">
+      <h2><a href="#apropos">À propos de moi</a></h2>
+      <p>Passionné par les technologies du web et la création d'interactif dynamiques, je me forme actuellement aux langages fondamentaux HTML, CSS et JavaScript. J'aime concevoir des projets fonctionnels et esthétiques.</p>
+    </section>
+   
+     <!-- Contact -->
+
+    <section id="contact" class="contact-section">
+      <h2><a href="#contact">Contactez-moi</a></h2>
+      <form >
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" placeholder="Enter votre nom">
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder=" Entrer votre email" >
+
+        <label for="message">Message :</label>
+        <textarea id="message" placeholder="message"></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+   <footer>
+    <p>&copy; 2026 Jonathan Gnahoua. Tous droits réservés.</p>
+    <div class="reseaux">
+      <a href="#">Facebook</a>
+      <a href="#">Linkedin</a>
+      <a href="#">GitHub</a>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
